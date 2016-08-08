@@ -4,17 +4,20 @@
 	<meta charset="UTF-8">
 	<title>FUNNY ĆOSO MEMES</title>
 	<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
 	body {
 		margin-top: 100px;
 		text-align: center;
-		background: rgba(17, 113, 150, 0.59);
+		background: #009688;
 		font-family: "Noto Sans", sans-serif
 	}
 
 	.container {
 		width: 70%;
+		max-width: 800px;
+		padding: 0 10px;
 		height: 100%;
 		background: white;
 		margin: 0 auto;
@@ -23,6 +26,42 @@
 	.heading {
 		text-transform: uppercase;
 	}
+
+	img {
+	  animation-name: pulse; 
+	  animation-timing-function: ease-in-out;
+	  animation-iteration-count: infinite;
+	  animation-duration: 1s;
+	  animation-direction: alternate;
+	}
+
+	@keyframes pulse {
+	  0%
+	  {
+	    transform: scale( .75 );
+	  }
+	  20%
+	  {
+	    transform: scale( 1 );
+	  }
+	  40%
+	  {
+	    transform: scale( .75 );
+	  }
+	  60%
+	  {
+	    transform: scale( 1 );
+	  }
+	  80%
+	  {
+	    transform: scale( .75 );
+	  }
+	  100%
+	  {
+	    transform: scale( .75 );
+	  }
+	}
+
 </style>
 <body>
 	<div class="container">
